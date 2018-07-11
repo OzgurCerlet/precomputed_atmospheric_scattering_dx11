@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="..\..\src\shaders\atmosphere_demo_ps.hlsl">
+      <Filter>src\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\src\shaders\atmosphere_demo_vs.hlsl">
+      <Filter>src\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\src\shaders\atmosphere_precompute_gs.hlsl">
+      <Filter>src\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\src\shaders\atmosphere_precompute_ps.hlsl">
+      <Filter>src\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\src\shaders\atmosphere_precompute_vs.hlsl">
+      <Filter>src\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\atmosphere.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\error.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui.cpp">
+      <Filter>src\external</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui_demo.cpp">
+      <Filter>src\external</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui_draw.cpp">
+      <Filter>src\external</Filter>
+    </ClCompile>
+    <ClCompile Include="src\external\imgui_impl_dx11.cpp">
+      <Filter>src\external</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\atmosphere.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\atmosphere_definitions.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\error.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imconfig.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui_impl_dx11.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\imgui_internal.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\stb_rect_pack.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\stb_textedit.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+    <ClInclude Include="src\external\stb_truetype.h">
+      <Filter>src\external</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9c95097e-dd9d-4c88-a46b-1c25c1d4d6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\external">
+      <UniqueIdentifier>{a56e79e1-7136-4e3d-925c-7c198e32312e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shaders">
+      <UniqueIdentifier>{382e00f9-3333-4957-828d-5f690220fbd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\shaders\atmosphere_functions.hlsli">
+      <Filter>src\shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
